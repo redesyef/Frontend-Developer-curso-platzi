@@ -28,7 +28,7 @@ margin-top: 20px;
     min-height: calc(100vh - 200px );
     
 }
-.login__container {
+.login__container{
     background-color: rgba(255,255,255,0.1);
     border: 2px solid white;
     border-radius: 40px;
@@ -68,30 +68,31 @@ margin-top: 20px;
     align-items: center;
     font-size: 14px;
     margin-bottom: 10px;
-    justify-content: center;
-    
 }
 .login__container--social-media > div > img {
     width: 30px;
     margin-right: 10px;
-    align-items: center;
-    
 }
-.login__container--register {
-    font-size: 14px;
+
+.login__container--sesion a {
+    color: white;
+    font-size: 14spx;
+    display: flex;
+    align-items: center;
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px  0px;
+    justify-content: center;
 
 }
-.login__container--register a {
-    font-size: 16px;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
+.login__container--sesion a:hover {
     
-}
-.login__container--register a:hover {
     text-decoration: underline;
-    
+
 }
+
 .input {
     background-color: transparent;
     border-left: 0px;
@@ -138,26 +139,3 @@ margin-top: 20px;
 .footer a:hover {
     text-decoration: underline;
 }
-
-@media only screen and (max-width: 600px)
-{
-    .login__container{
-        background-color: transparent;
-        border: none;
-        padding: 0px;
-        width: 100%;
-        box-shadow: none;
-    }
-    .footer {
-        align-items: flex-start;
-        flex-direction: column;
-    }
-    .login__container--remember-me{
-        align-items: center;
-      }
-      .login__container--remember-me label{
-        display: flex;
-        align-items: center
-      }
-}
-

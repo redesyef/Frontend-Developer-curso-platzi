@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style/style2.css">
+    <title>404</title>
+    <style>
+        
+        .btn-error {
+    background-color: #FEA830;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all .3s ease-out;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:cornsilk;
+}
+
+.btn-error:hover {
+    background-color: #FEA830;
+    border: 1px solid #eee;
+}
+/*Error 404*/
+.error404 {
+    background: #FFDE00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(110vh - 200px);
+}
+
+.error404__container {
+    min-height: 700px;
+    margin-top: -44px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.error404__container--logo {
+    border-right: 1px solid white;
+    padding: 20px;
+}
+
+.error404__container--logo > h1 {
+    font-size: 110px;
+    font-weight: 500;
+}
+
+.error404__container--logo > img {
+    width: 100px;
+    position: relative;
+    left: 54px;
+}
+
+.error404__container--desc {
+    margin-left: -222px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.error404__container--desc > h2 {
+    font-size: 30px;
+}
+
+.error404__container--desc > p {
+    font-size: 17px;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img class="header__img" src= "https://muons.com.co/soft/images/softlogo1.png" alt="logo_muons_soft"/>
+       
+    </header>
+
+    <section class="error404">
+        <div class="error404__container text-white">
+            <div class="error404__container--logo">
+                <h1>404</h1>
+                <img src="https://static.platzi.com/static/images/error/img404.a1003ad86732.png">
+            </div>
+            <div class="error404__container--desc">
+                <h2>Ups..!</h2>
+                <p>Pagina no encontrada 😔</p>
+                <a href="index.html" class="btn-error">Regresar</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer size-14">
+        <a href="#">Terminos de uso</a>
+        <a href="#">Declaracion de privacidad</a>
+        <a href="#">Centro de ayuda</a>
+    </footer>
+</body>
+</html>
